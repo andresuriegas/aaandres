@@ -246,7 +246,7 @@ body {
     color: #000;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 376px) {
 
     .flex-container {
         display: flex;
@@ -366,12 +366,12 @@ body {
     color: rgb(0, 0, 0);
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 376px) {
     .about {
         position: relative;
-        top: 160vh;
+        top: 105vh;
         background-color: #c2c2c2;
-        height: 165vh;
+        height: 105vh;
     }
     
     .flex-container-about {
@@ -460,12 +460,12 @@ body {
     background-position: 0 88%;  
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 376px) {
     .work {
         position: relative;
         background-color: #25447E;
         height: 100vh;
-        top: 160vh;
+        top: 105vh;
     }
     
     .flex-container-work {
@@ -566,14 +566,14 @@ body {
     color: #000;
 }
 
-@media screen and (max-width: 380px) { 
+@media screen and (max-width: 376px) { 
 
     .contact {
         position: relative;
         z-index: 2;
-        top: 200vh;
+        top: 105vh;
         background-color: #0B0F1E;
-        height: 100vh;
+        height: 70vh;
     }
 
     .flex-container-contact {
@@ -677,17 +677,19 @@ footer > h3 {
     margin: 0 40px;
 }
 
-@media screen and (max-width: 380px) { 
+@media screen and (max-width: 376px) { 
     footer {
-        height: 15vh;
-        background-color: #6E92D5;
-        width: 100%;
-        z-index: 2;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: relative;
-        top:200vh;
+        top:100vh;
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+
+    footer > h3{
+        font-size: 1rem;
+    }
+
+    footer > h3:first-child{
+        margin-bottom: 20px;
     }
 }
 
