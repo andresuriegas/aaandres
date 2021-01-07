@@ -369,9 +369,9 @@ body {
 @media screen and (max-width: 376px) {
     .about {
         position: relative;
-        top: 105vh;
+        top: 110vh;
         background-color: #c2c2c2;
-        height: 105vh;
+        height: 110vh;
     }
     
     .flex-container-about {
@@ -465,7 +465,7 @@ body {
         position: relative;
         background-color: #25447E;
         height: 100vh;
-        top: 105vh;
+        top: 110vh;
     }
     
     .flex-container-work {
