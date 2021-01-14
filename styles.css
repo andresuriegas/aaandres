@@ -270,7 +270,7 @@ body {
     .flex-item-text h1 {
         font-size: 4rem;
         margin-bottom: 20px;
-        margin-top: -120px;
+        margin-top: -70px;
     }
     
     .flex-item-text h2 {
@@ -285,16 +285,22 @@ body {
 
 
 @media screen and (min-width: 377px) {
+    .landing-page{
+        height: 100vh;
+    }
+
     .flex-container {
         flex-flow: row wrap;
         height: 100vh;
+        align-content: center;
+        margin-top: -10%;
     }
 
     .flex-item-img {
         width: 300px;
         height: 300px;
         width: 100%;
-        margin-top: 150px;
+        margin-top: 40vh;
     }
 
     .flex-item-text {
@@ -318,13 +324,18 @@ body {
 }
 
 @media screen and (min-width: 550px) {
+    .landing-page{
+        height: 75vh;
+    }
+
     .flex-container {
         flex-flow: row wrap;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
+        align-content: center;
         position: absolute;
-        height: 120vh;
-        margin-top: 100px;
+        height: 100vh;
+        margin-top: -50px;
     }
     
     
@@ -332,7 +343,7 @@ body {
         width: 300px;
         height: 300px;
         width: 100%;
-        margin-top: 5px;
+        margin-top: 15vh;
     }
     
      .flex-item-text {
@@ -351,6 +362,46 @@ body {
     .btn-2 {
         font-size: 1rem;
     }    
+}
+
+@media screen and (min-width: 768px) {
+    .landing-page{
+        height: 75vh;
+    }
+
+    .flex-container {
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        position: absolute;
+        height: 100vh;
+        margin-top: -50px;
+    }
+    
+    
+    .flex-item-img {
+        width: 300px;
+        height: 300px;
+        width: 100%;
+    }
+    
+     .flex-item-text {
+        width: 100%;
+    }
+    
+    .flex-item-text h1 {
+        font-size: 4rem;
+    }
+    
+    .flex-item-text h2 {
+        font-size: 1.2rem;
+        margin: 0 20px 30px 20px;
+    }
+    
+    .btn-2 {
+        font-size: 1rem;
+    }   
 }
 
 @media screen and (min-width: 1080px) {
@@ -494,7 +545,7 @@ body {
     .about {
         position: relative;
         background-color: #c2c2c2;
-        height: 107vh;
+        height: 100vh;
         top: 20vh;
     }
     
@@ -556,8 +607,7 @@ body {
 
 @media screen and (min-width: 550px) {
     .about {
-        top: 50vh;
-        height: 120vh;
+        height: 100vh;
     }
     
     .flex-container-about {
@@ -722,8 +772,7 @@ body {
 
 @media screen and (min-width: 550px) {
     .work {
-        height: 120vh;
-        top: 50vh;
+        height: 100vh;
     }
 }
 
@@ -977,8 +1026,7 @@ body {
 
 @media screen and (min-width: 550px) {
     .contact {
-        top: 50vh;
-        height: 100vh;
+        height: 70vh;
     }
 }
 
@@ -1038,10 +1086,7 @@ footer > h3 {
 @media screen and (min-width: 550px) {
     footer {
         flex-flow: column wrap;
-        justify-content: center;
         font-size: 0.8rem;
-        position: relative;
-        top: 50vh;
     }
 
     footer > h3{
