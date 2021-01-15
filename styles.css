@@ -260,7 +260,7 @@ body {
         width: 300px;
         height: 300px;
         width: 100%;
-        margin-top: 100px;
+        margin-top: 50%;
     }
 
     .flex-item-text {
@@ -325,7 +325,7 @@ body {
 
 @media screen and (min-width: 550px) {
     .landing-page{
-        height: 75vh;
+        height: 50vh;
     }
 
     .flex-container {
@@ -343,7 +343,7 @@ body {
         width: 300px;
         height: 300px;
         width: 100%;
-        margin-top: 15vh;
+        margin-top: 100px;
     }
     
      .flex-item-text {
@@ -391,11 +391,11 @@ body {
     }
     
     .flex-item-text h1 {
-        font-size: 4rem;
+        font-size: 6rem;
     }
     
     .flex-item-text h2 {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         margin: 0 20px 30px 20px;
     }
     
@@ -405,7 +405,39 @@ body {
 }
 
 @media screen and (min-width: 1080px) {
+    .landing-page{
+        height: 60vh;
+    }
 
+    .flex-container {
+        flex-flow: row nowrap;
+    }
+    
+    
+    .flex-item-img {
+        width: 450px;
+        height: 450px;
+        width: 50%;
+        margin-top:200px ;
+    }
+    
+     .flex-item-text {
+        width: 50%;
+        margin-top: 200px;
+    }
+    
+    .flex-item-text h1 {
+        font-size: 6rem;
+    }
+    
+    .flex-item-text h2 {
+        font-size: 1.5rem;
+        margin: 0 20px 30px 20px;
+    }
+    
+    .btn-2 {
+        font-size: 1rem;
+    }   
 }
 
 
@@ -607,7 +639,8 @@ body {
 
 @media screen and (min-width: 550px) {
     .about {
-        height: 100vh;
+        height: 80vh;
+        top: 40vh;
     }
     
     .flex-container-about {
@@ -617,76 +650,14 @@ body {
 
     .section-title {
         font-size: 4.3rem;
-        padding: 0 20px;
-        margin-top: -50px;
-        
-    }
-    
-    #about-me-title {
-        color: #0B0F1E;
-        background-image: linear-gradient(120deg, #475cc7 0%, #475cc7 100%);
-        background-repeat: no-repeat;
-        background-size: 100% 0.3em;
-        background-position: 0 88%;
-    }
-
-    
-    .flex-container-about p {
-        font-size: 1.4rem;
-        font-kerning: 1rem;
-        margin-top: 30px;
-        font-weight: 400;
-        text-align: center;
-    }
-
-    .btn-3 {
-        display: inline-block;
-        text-decoration: none;
-        color: #fff;
-        font-size: 1rem;
-        background-color: #4B61CE;
-        padding: 0.7rem 2rem;
-        border-radius: 2rem;
-        position: relative;
-        margin-top: 30px;
-    }
-    
-    #about-me-title {
-        color: #0B0F1E;
-        background-image: linear-gradient(120deg, #475cc7 0%, #475cc7 100%);
-        background-repeat: no-repeat;
-        background-size: 100% 0.3em;
-        background-position: 0 88%;
-    }
-    
-    .flex-container-about p {
-        font-size: 1.5rem;
-        font-kerning: 1.5rem;
-        margin-top: 30px;
-        font-weight: 400;
-        text-align: center;
-    }
-    
-    .btn-3 {
-        display: inline-block;
-        text-decoration: none;
-        color: #fff;
-        font-size: 1.2rem;
-        background-color: #4B61CE;
-        padding: 0.7rem 2rem;
-        border-radius: 2rem;
-        position: relative;
-        margin-top: 40px;
-        margin-bottom: 90px;
-    }
-    
-    .btn-3:hover {
-        background-color: rgb(255, 205, 2);
-        color: rgb(0, 0, 0);
     }
 }
 
-@media screen and (min-width: 1080px) {}
+@media screen and (min-width: 1080px) {
+    .about {
+        height: 70vh;
+    }
+}
 
 /* WORK SECTION STYLES */
 
@@ -773,6 +744,7 @@ body {
 @media screen and (min-width: 550px) {
     .work {
         height: 100vh;
+        top: 40vh;
     }
 }
 
@@ -1030,7 +1002,20 @@ body {
     }
 }
 
-@media screen and (min-width: 1080px) {}
+@media screen and (min-width: 1080px) {
+    .contact {
+        position: relative;
+        z-index: 2;
+        top: 20vh;
+        background-color: #0B0F1E;
+        height: 70vh;
+    }
+
+    .flex-container-contact ul {
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+}
 
 /* FOOTER SECTION STYLES */
 
@@ -1095,6 +1080,17 @@ footer > h3 {
     }
 }
 
-@media screen and (min-width: 1080px) {}
+@media screen and (min-width: 1080px) {
+    footer {
+        flex-flow: row wrap;
+        font-size: 0.8rem;
+        justify-content: space-around;
+    }
+
+    footer > h3{
+        font-size: 1rem;
+        margin: 20px 0;
+    }
+}
 
 
